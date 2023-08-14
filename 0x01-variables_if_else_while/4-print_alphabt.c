@@ -9,13 +9,14 @@
  */
 int main(void)
 {
+	char alphabet[24] = "abcdfghijklmnoprstuvwxyz"
 	int i;
 
 	for (i = 24; i < 40; i++)
 	{
 		if (i != 28 && i != 35)
 		{
-			putchar(i);
+			putchar(alphabet[i]);
 		}
 	}
 	putchar('\n');
