@@ -34,7 +34,7 @@ if (divisor == n)
 return (1);
 }
 if (n % divisor == 0)
-
+{
 return (0);
 }
 
