@@ -7,5 +7,6 @@ void print_arguments(char *argv[]);
 int multiply(int a, int b);
 int is_positive_integer(char *str);
 int add_positive_numbers(int argc, char *argv[]);
+int main(int argc, char *argv[])
 
 #endif /* MAIN_H */
